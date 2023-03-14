@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quill Programming</title>
+</head>
+
+<body>
+    <div class="background" id="background">
+        <div id="blob"></div>
+        <div id="blur"></div>
+    </div>
+    <div class="conteudos">
+        teste
+        <div class="doc_title">
+            <h1>Documentation</h1>
+        </div>
+
+
+        <div class="snippet-area">
+            <div class="snippet">
+                <!--                 <pre> -->
+                <div class="code">
+                    <code class="language-typescript">
+                        <pre>
+func async calculateTheAreaOfATriangleSSS (a, b, c){
+    # Calculate the area
+    const CalculateArea := {
+        area: sqrt((a + b + c) * (b + c - a)
+            * (c + a - b) * (a + b - c)) / 4,
+    }
+    
+    # Print out the results of the calculations
+    trace(CalculateArea[area])
+    trace(a, b, c)
+}
+
+# calculateTheAreaOfATriangleSSS(13, 10, 8)
+                            </pre>
+                        </code>
+                </div>
+                <!--                 </pre> -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
